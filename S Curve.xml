@@ -1,43 +1,55 @@
-<effectgroup description="" id="S Curve" parentIn="0">
- <description></description>
- <effect id="TLOGK">
-  <property name="2">0.3</property>
-  <property name="1">0</property>
-  <property name="15">0.744186</property>
-  <property name="Channel">0.5</property>
-  <property name="4">1</property>
-  <property name="9">0.379845</property>
-  <property name="14">1</property>
-  <property name="3">0.5</property>
-  <property name="6">0</property>
-  <property name="7">0.20155</property>
-  <property name="12">0.792507</property>
-  <property name="8">0.227666</property>
-  <property name="13">0.604651</property>
-  <property name="kdenlive:curve">0/0.20155;0.227666/0.379845;0.495677/0.496124;0.792507/0.604651;1/0.744186;</property>
-  <property name="10">0.495677</property>
-  <property name="11">0.496124</property>
- </effect>
- <effect id="avfilter.lut3d">
-  <property name="av.interp">tetrahedral</property>
-  <property name="av.file">/usr/share/kdenlive/luts/TEAL_ORANGE.cube</property>
- </effect>
- <effect id="frei0r.curves">
-  <property name="2">0.3</property>
-  <property name="1">0</property>
-  <property name="15">0</property>
-  <property name="Channel">0.5</property>
-  <property name="4">1</property>
-  <property name="9">0.27907</property>
-  <property name="14">0</property>
-  <property name="3">0.4</property>
-  <property name="6">0</property>
-  <property name="7">0</property>
-  <property name="12">1</property>
-  <property name="8">0.399594</property>
-  <property name="13">1</property>
-  <property name="kdenlive:curve">0/0;0.399594/0.27907;0.752535/0.899225;1/1;</property>
-  <property name="10">0.752535</property>
-  <property name="11">0.899225</property>
- </effect>
-</effectgroup>
+<effect LC_NUMERIC="C" id="S Curve" tag="frei0r.curves" type="customVideo" version="0.3">
+ <name>S Curve</name>
+ <description>Color curves adjustment</description>
+ <author>Maksim Golovkin</author>
+ <parameter default="0.5" name="Channel" paramlist="0.5;0;0.1;0.2;0.3;0.4;0.6;0.71" type="list" value="0.5">
+  <name>Channel</name>
+  <paramlistdisplay>RGB,Red,Green,Blue,Alpha,Luma,Hue,Saturation</paramlistdisplay>
+ </parameter>
+ <parameter default="1" name="4" paramlist="0;1" type="list" value="1">
+  <name>Luma formula</name>
+  <paramlistdisplay>Rec. 601,Rec. 709</paramlistdisplay>
+ </parameter>
+ <!-- No actual parameter: Represents the curve widget -->
+ <parameter default="0/0;1/1" depends="Channel" list1="6 8 10 12 14" list2="7 9 11 13 15" max="5" min="1" name="kdenlive:curve" type="curve" value="0/0;0.291751/0.155039;0.756539/0.875969;1/1;"/>
+ <parameter default="0.2" max="0.5" min="0.2" name="3" type="hidden" value="0.4">
+  <name>Number of curve points</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="6" type="hidden" value="0">
+  <name>Point 1 input value</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="7" type="hidden" value="0">
+  <name>Point 1 output value</name>
+ </parameter>
+ <parameter default="1" max="1" min="0" name="8" type="hidden" value="0.291751">
+  <name>Point 2 input value</name>
+ </parameter>
+ <parameter default="1" max="1" min="0" name="9" type="hidden" value="0.155039">
+  <name>Point 2 output value</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="10" type="hidden" value="0.756539">
+  <name>Point 3 input value</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="11" type="hidden" value="0.875969">
+  <name>Point 3 output value</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="12" type="hidden" value="1">
+  <name>Point 4 input value</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="13" type="hidden" value="1">
+  <name>Point 4 output value</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="14" type="hidden" value="0">
+  <name>Point 5 input value</name>
+ </parameter>
+ <parameter default="0" max="1" min="0" name="15" type="hidden" value="0">
+  <name>Point 5 output value</name>
+ </parameter>
+ <parameter default="0" name="1" type="bool" value="0">
+  <name>Show graph in picture</name>
+ </parameter>
+ <parameter default="0.3" name="2" paramlist="0;0.1;0.2;0.3" type="list" value="0.3">
+  <name>Graph position</name>
+  <paramlistdisplay>Top Left,Top Right,Bottom Left,Bottom Right</paramlistdisplay>
+ </parameter>
+</effect>
