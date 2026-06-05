@@ -1,0 +1,57 @@
+<effectgroup description="" id="Log -Warmer" parentIn="0">
+ <description></description>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">1</property>
+  <property name="Channel">0</property>
+  <property name="4">1</property>
+  <property name="9">0.0542636</property>
+  <property name="14">1</property>
+  <property name="3">0.5</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">0.77591</property>
+  <property name="8">0.201681</property>
+  <property name="13">0.922481</property>
+  <property name="kdenlive:curve">0/0;0.201681/0.0542636;0.501401/0.496124;0.77591/0.922481;1/1;</property>
+  <property name="10">0.501401</property>
+  <property name="11">0.496124</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">1</property>
+  <property name="Channel">0.2</property>
+  <property name="4">1</property>
+  <property name="9">0.271318</property>
+  <property name="14">1</property>
+  <property name="3">0.5</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">0.812325</property>
+  <property name="8">0.182073</property>
+  <property name="13">0.643411</property>
+  <property name="kdenlive:curve">0/0;0.182073/0.271318;0.504202/0.496124;0.812325/0.643411;1/1;</property>
+  <property name="10">0.504202</property>
+  <property name="11">0.496124</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.5</property>
+  <property name="4">1</property>
+  <property name="9">0.310078</property>
+  <property name="14">0</property>
+  <property name="3">0.3</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">0</property>
+  <property name="8">0.526611</property>
+  <property name="13">0</property>
+  <property name="kdenlive:curve">0/0;0.526611/0.310078;1/1;</property>
+  <property name="10">1</property>
+  <property name="11">1</property>
+ </effect>
+</effectgroup>

@@ -1,0 +1,18 @@
+<effectgroup description="Color grader&#xa;" id="Excess Orange" parentIn="0">
+ <description>Color grader
+</description>
+ <effect id="lift_gamma_gain">
+  <property name="gain_b">0=0.528145</property>
+  <property name="gain_g">0=0.743603</property>
+  <property name="gamma_b">0=0.575509</property>
+  <property name="gamma_r">0=1.00002</property>
+  <property name="gamma_g">0=0.71574</property>
+  <property name="lift_b">0=-0.203113</property>
+  <property name="gain_r">0=1.00002</property>
+  <property name="lift_g">0=-0.265949</property>
+  <property name="lift_r">0=-0.662928</property>
+ </effect>
+ <effect id="frei0r.brightness">
+  <property name="Brightness">0=0.548</property>
+ </effect>
+</effectgroup>

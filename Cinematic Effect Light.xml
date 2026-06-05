@@ -1,0 +1,43 @@
+<effectgroup description="" id="Cinematic Effect Light" parentIn="0">
+ <description></description>
+ <effect id="TLOGK.5">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0.875969</property>
+  <property name="Channel">0.5</property>
+  <property name="4">1</property>
+  <property name="9">0.364341</property>
+  <property name="14">1</property>
+  <property name="3">0.5</property>
+  <property name="6">0</property>
+  <property name="7">0.108527</property>
+  <property name="12">0.755043</property>
+  <property name="8">0.253603</property>
+  <property name="13">0.620155</property>
+  <property name="kdenlive:curve">0/0.108527;0.253603/0.364341;0.495677/0.496124;0.755043/0.620155;1/0.875969;</property>
+  <property name="10">0.495677</property>
+  <property name="11">0.496124</property>
+ </effect>
+ <effect id="avfilter.lut3d">
+  <property name="av.interp">tetrahedral</property>
+  <property name="av.file">/usr/share/kdenlive/luts/CINEMATIC.cube</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.5</property>
+  <property name="4">1</property>
+  <property name="9">0.395349</property>
+  <property name="14">0</property>
+  <property name="3">0.3</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">0</property>
+  <property name="8">0.52454</property>
+  <property name="13">0</property>
+  <property name="kdenlive:curve">0/0;0.52454/0.395349;1/1;</property>
+  <property name="10">1</property>
+  <property name="11">1</property>
+ </effect>
+</effectgroup>

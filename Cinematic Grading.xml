@@ -1,0 +1,32 @@
+<effectgroup description="" id="Cinematic Grading" parentIn="0">
+ <description></description>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.5</property>
+  <property name="4">1</property>
+  <property name="9">0.488372</property>
+  <property name="14">0</property>
+  <property name="3">0.3</property>
+  <property name="6">0</property>
+  <property name="7">0.162791</property>
+  <property name="12">0</property>
+  <property name="8">0.497368</property>
+  <property name="13">0</property>
+  <property name="kdenlive:curve">0/0.162791;0.497368/0.488372;1/1;</property>
+  <property name="10">1</property>
+  <property name="11">1</property>
+ </effect>
+ <effect id="lift_gamma_gain">
+  <property name="gain_b">0=0.580941</property>
+  <property name="gain_g">0=0.759716</property>
+  <property name="gamma_b">0=0.65626</property>
+  <property name="gamma_r">0=0.65626</property>
+  <property name="gamma_g">0=0.65626</property>
+  <property name="lift_b">0=1.5e-05</property>
+  <property name="gain_r">0=1.00002</property>
+  <property name="lift_g">0=-0.251301</property>
+  <property name="lift_r">0=-0.482231</property>
+ </effect>
+</effectgroup>

@@ -1,0 +1,75 @@
+<effectgroup description="" id="Moody red" parentIn="0">
+ <description></description>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.5</property>
+  <property name="4">1</property>
+  <property name="9">0.488372</property>
+  <property name="14">0</property>
+  <property name="3">0.3</property>
+  <property name="6">0</property>
+  <property name="7">0.108527</property>
+  <property name="12">0</property>
+  <property name="8">0.497368</property>
+  <property name="13">0</property>
+  <property name="kdenlive:curve">0/0.108527;0.497368/0.488372;1/1;</property>
+  <property name="10">1</property>
+  <property name="11">1</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0</property>
+  <property name="4">1</property>
+  <property name="9">0.116279</property>
+  <property name="14">0</property>
+  <property name="3">0.4</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">1</property>
+  <property name="8">0.155989</property>
+  <property name="13">1</property>
+  <property name="kdenlive:curve">0/0;0.155989/0.116279;0.732591/0.906977;1/1;</property>
+  <property name="10">0.732591</property>
+  <property name="11">0.906977</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.2</property>
+  <property name="4">1</property>
+  <property name="9">0.162791</property>
+  <property name="14">0</property>
+  <property name="3">0.4</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">1</property>
+  <property name="8">0.150418</property>
+  <property name="13">1</property>
+  <property name="kdenlive:curve">0/0;0.150418/0.162791;0.749304/0.573643;1/1;</property>
+  <property name="10">0.749304</property>
+  <property name="11">0.573643</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.5</property>
+  <property name="4">1</property>
+  <property name="9">0.387597</property>
+  <property name="14">0</property>
+  <property name="3">0.3</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">0</property>
+  <property name="8">0.537604</property>
+  <property name="13">0</property>
+  <property name="kdenlive:curve">0/0;0.537604/0.387597;1/1;</property>
+  <property name="10">1</property>
+  <property name="11">1</property>
+ </effect>
+</effectgroup>
